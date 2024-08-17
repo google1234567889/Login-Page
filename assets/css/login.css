@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;  color: #ffffff;
+    font-size: 15px;
+}
+
+
+
+
+
+.container {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    backdrop-filter: blur(10px);
+}
+.email ,.senha {
+    justify-content: flex-start;
+    display: flex;
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 16px;
+    border: 1px solid #aaaaaa;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+
+}
+
+.senha {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.email p{
+    margin-top: 20px;
+}
+
+.button p {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid #000000;
+    background-color: #949494;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    
+    
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+
+h1 {
+        color: #ffffff;
+        margin-bottom: 20px;
+        
+        
+}
